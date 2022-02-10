@@ -123,7 +123,7 @@
             const identidad = document.getElementById('identidad').value;
 
             try{
-                await axios({
+                    axios({
                     method: 'GET',
                     url: 'https://jsonplaceholder.typicode.com/users'
                 }).then(res => {
